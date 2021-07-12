@@ -1,0 +1,89 @@
+.info::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.buttonbuy {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #80C343;
+    background-color: rgb(30, 30, 30);
+    color: #80C343;
+    padding: 15px 30px;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.buttonbuy:hover {
+    background-color: #80C343;
+    color: white;
+}
+
+.prodinfo {
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.prodinfo3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.prodinfo3 p {
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    text-align: left;
+    flex-basis: 50%;
+    min-width: 300px;
+    
+}
+
+
+.hr-s2 {
+    width:15%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+.col-1 {
+    text-align: left;
+}
+
+.col-2 {
+    text-align: left;
+}
+.specs{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+tr {
+    
+    border-bottom: 1px solid white; 
+    line-height: 6em;
+}
+
+td {
+    line-height: 3em;
+}
