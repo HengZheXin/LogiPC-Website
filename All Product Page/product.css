@@ -1,0 +1,73 @@
+.product1 {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-2 img{
+  max-width: 20%;
+  padding: 10px 0;
+}
+
+.col-2::after {
+  content: "";
+  display: table;
+}
+
+.hr-s3 {
+  width:15%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.product {
+  padding-left: 300px;
+  
+}
+
+.center h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22pt;
+}
+
+.center h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+}
+
+.center h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonplace {
+  padding-left: 750px;
+}
+
+.buttonbuild {
+  padding-left: 900px;
+}
+
+.button {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 30px;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background: grey;
+}
+
+
+
+
