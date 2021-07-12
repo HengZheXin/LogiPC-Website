@@ -1,0 +1,55 @@
+.hr-s3 {
+    width:15%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.container {
+    border: 2px solid rgb(30, 30, 30);
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.container img {
+    max-width: 17%;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buttoncheck {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #80C343;
+    background-color: rgb(30, 30, 30);
+    color: #80C343;
+    padding: 15px 30px;
+    margin: 10px;
+    transition-duration: 0.5s;
+    float: right;
+}
+
+.buttoncheck:hover {
+    background-color: #80C343;
+    color: white;
+}
+
+p {
+    font-size: 14pt;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
